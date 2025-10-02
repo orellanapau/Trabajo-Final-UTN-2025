@@ -1,0 +1,44 @@
+.container-message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-message--right{
+    align-items: flex-end;
+}
+
+.container-message--left{
+    align-items: flex-start;
+}
+
+.container-message-style{
+    max-height: max-content;
+    width: fit-content;
+    max-width: 70%;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 2px;
+
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    background-color: rgb(255, 255, 178);
+}
+
+.author-message{
+    font-weight:500;
+    font-size: 16px;
+}
+
+.content-message{
+    font-weight:200;
+    font-size: 17px;
+}
+
+.timestamp-message{
+    display: flex;
+    justify-content:flex-end;
+    color:rgba(0, 0, 0, 0.397) ;
+    font-size: 12px;
+    padding: 2px;
+}
