@@ -1,5 +1,7 @@
 import React from 'react'
 import './NewMessageForm.css'
+import ICONS from '../../constants/icons'
+
 
 const NewMessageForm = (props) => {
 
@@ -16,6 +18,8 @@ const NewMessageForm = (props) => {
     return (
     <div className='container'> 
         <form onSubmit={handleSubmit} className='newMessage-container--form'>
+            <div className='newMessage-container--button'><ICONS.Emoji/></div>
+            <div className='newMessage-container--button'><ICONS.Clip/></div>
             <input 
                 className='newMessage-container--input' 
                 name="mensaje" 
@@ -23,10 +27,14 @@ const NewMessageForm = (props) => {
                 placeholder='Escribe un mensaje'
                 aria-label="Escribe un mensaje">
             </input>
-            <button className='newMessage-container--button'><i className="bi bi-send"></i></button>
+            <button className='newMessage-container--button'><ICONS.Enviar/></button>
+            
         </form>
     </div>
     )
 }
 export 
 default NewMessageForm
+
+
+//icons 2:36:26 <i className="bi bi-send"></i>

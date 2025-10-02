@@ -7,15 +7,11 @@ const HomeScreen = () => {
     return (
         <div className='home-screen-container'>
             <NavBar/>
-            <div className='home-screen-container-row'>
-                <div>
-                    <ContactList/>
-                </div>
-
-                <div className='menssages-container'>
-                    <span>Todavía no has seleccionado ningún contacto.</span>
-                </div>
+            <ContactList/>
+            <div className='menssages-container'>
+                <span>Todavía no has seleccionado ningún contacto.</span>
             </div>
+            
         </div>
     )
 }

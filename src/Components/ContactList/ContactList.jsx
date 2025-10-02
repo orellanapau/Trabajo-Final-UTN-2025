@@ -2,6 +2,7 @@ import React from 'react'
 import { getAllContacts } from '../../Services/contactService'
 import { Link } from 'react-router'
 import './ContactList.css'
+import ICONS from '../../constants/icons'
 
 const ContactItem = (props) => {
     const contact = props.contact
@@ -31,6 +32,17 @@ const ContactList = () => {
 
     return (
         <div className='all-contact-list-container'>
+            <header className = 'header-container' >
+                <div className='header-container--content'>
+                    <img src="https://static.vecteezy.com/system/resources/previews/012/638/343/original/lemon-slice-color-png.png" alt="" width={'35px'}/>
+                    <h2>Lemonade</h2>
+                </div>
+                
+                <div className='header-container--content'>
+                    <button className='header-container--button'><ICONS.NewChat/></button>
+                    <button className='header-container--button'><ICONS.TresPuntos/></button>
+                </div>
+            </header >
             {contact_list_jsx}
         </div>
     )

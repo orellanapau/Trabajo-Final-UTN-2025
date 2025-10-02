@@ -48,7 +48,29 @@ function MessageScreen() {
 
 
     return (
-        <div className='message-screen-all-container'>
+
+        <div className='message-screen--container'>
+            <NavBar/>
+            <ContactList/>
+            <div className='message-screen--contact-container'>
+                <div className='message-screen--header'>
+                    <h2>Contacto</h2>
+                </div>
+                <div className='message-screen--messages'>
+                    <MessagesList messages={messages}/>
+                    <NewMessageForm 
+                        onCreateNewMessage={onCreateNewMessage}
+                        className='message-screen--form'/>
+                </div>
+            </div>
+
+        </div>
+    )
+
+}
+export default MessageScreen
+
+        {/* <div className='message-screen-all-container'>
             <NavBar />
             <div className='message-screen--container'>
                 <div className='message-screen--contact-list-container'>
@@ -57,14 +79,9 @@ function MessageScreen() {
                 <div className='message-screen--messages-container'>
                     <MessagesList messages={messages} />
                     <div className='message-screen--form-container'>
-                    <NewMessageForm onCreateNewMessage={onCreateNewMessage}/>
+                        <NewMessageForm onCreateNewMessage={onCreateNewMessage}/>
                     </div>
-                                        
                 </div>
             </div>
             
-        </div>
-    )
-
-}
-export default MessageScreen
+        </div> */}
