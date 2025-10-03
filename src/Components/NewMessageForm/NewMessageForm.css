@@ -22,7 +22,7 @@
     padding: 7px 20px;
 
     border-style: solid;
-    border-color:yellow;
+    border-color:#ffcd38;
     border-width: 2px;
     border-radius: 17px;
 }
@@ -34,7 +34,7 @@
     color:black;
     border: none ;
     font-size: 20px;
-    background-color: yellow;
+    background-color: #ffcd38;
     border-radius: 100px;
     min-height: 40px;
     min-width: 40px;

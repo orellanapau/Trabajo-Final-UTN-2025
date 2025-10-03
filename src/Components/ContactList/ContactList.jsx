@@ -35,7 +35,7 @@ const ContactList = () => {
             <header className = 'header-container' >
                 <div className='header-container--content'>
                     <img src="https://static.vecteezy.com/system/resources/previews/012/638/343/original/lemon-slice-color-png.png" alt="" width={'35px'}/>
-                    <h2>Lemonade</h2>
+                    <h2 className='header-container--h2'>Lemonade</h2>
                 </div>
                 
                 <div className='header-container--content'>

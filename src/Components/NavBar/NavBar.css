@@ -5,7 +5,7 @@
 
     height: 100%;
     width: 60px;
-    background-color: wheat;
+    background-color:rgb(255, 255, 178);
 }
 
 .navbar-container--button-container{
@@ -22,11 +22,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color:black;
+    color:grey;
     border: none ;
     font-size: 20px;
-    background-color: yellow;
+    background-color: transparent;
     border-radius: 100px;
     height: 40px;
     width: 40px;
+}
+
+.black-button{
+    color:black;
+    background-color: #ffcd3859;
 }

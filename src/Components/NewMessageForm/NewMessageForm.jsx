@@ -35,6 +35,3 @@ const NewMessageForm = (props) => {
 }
 export 
 default NewMessageForm
-
-
-//icons 2:36:26 <i className="bi bi-send"></i>
