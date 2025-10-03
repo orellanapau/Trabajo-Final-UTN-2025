@@ -14,15 +14,8 @@
 }
 
 .message-screen--header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
     height: 60px;
-    width: 100%;
-
-    padding: 15px;
-    background-color: wheat;
+    width: 100%;   
 }
 
 .message-screen--messages{

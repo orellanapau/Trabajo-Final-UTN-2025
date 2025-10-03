@@ -4,8 +4,6 @@ import './MessagesList.css'
 
 const MessagesList = (props) => {
 
-    //Aca estaba la lista de mensajes
-
     const listaMensajesJSX = props.messages.map(
         (parametro) => {
             return (

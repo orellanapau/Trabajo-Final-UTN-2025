@@ -6,35 +6,25 @@ import { useParams } from 'react-router'
 import { getContactById } from '../../Services/contactService'
 import ContactList from '../../Components/ContactList/ContactList'
 import './MessageScreen.css'
+import ContactHeader from '../../Components/ContactHeader/ContactHeader'
 
 function MessageScreen() {
 
     const {id_contacto} = useParams()
+    const [contact, setContact] = useState(null)
 
     useEffect(
         //acción a realizar
         () => {
             const contacto = getContactById(id_contacto)
             setMessages (contacto.messages)
+            setContact (contacto)
         },
         //dependencias
         [id_contacto]
     )
     
-    const [messages, setMessages] = useState([
-        {
-            id: 1,
-            author: 'Yo',
-            content: "Todo bien?",
-            timestamp: '16:17'
-        },
-        {
-            id: 2,
-            author: 'Maria',
-            content: "Si",
-            timestamp: '16:18'
-        }
-    ])
+    const [messages, setMessages] = useState([])
 
     const onCreateNewMessage = (new_message) => {
         const new_message_object = {
@@ -54,7 +44,7 @@ function MessageScreen() {
             <ContactList/>
             <div className='message-screen--contact-container'>
                 <div className='message-screen--header'>
-                    <h2>Contacto</h2>
+                    {contact && <ContactHeader contact={contact}/>}
                 </div>
                 <div className='message-screen--messages'>
                     <MessagesList messages={messages}/>
@@ -69,19 +59,3 @@ function MessageScreen() {
 
 }
 export default MessageScreen
-
-        {/* <div className='message-screen-all-container'>
-            <NavBar />
-            <div className='message-screen--container'>
-                <div className='message-screen--contact-list-container'>
-                    <ContactList/>
-                </div>
-                <div className='message-screen--messages-container'>
-                    <MessagesList messages={messages} />
-                    <div className='message-screen--form-container'>
-                        <NewMessageForm onCreateNewMessage={onCreateNewMessage}/>
-                    </div>
-                </div>
-            </div>
-            
-        </div> */}

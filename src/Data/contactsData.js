@@ -7,12 +7,20 @@ const contacts = [
         last_time_connected: '5 octubre 2025',
         is_connected: false,
         profile_img:'https://soydelrojo.com/wp-content/uploads/2022/05/El-Dibu-Martinez-esta-listo-para-un-nuevo-partido-de-la-Seleccion-Argentina..jpg',
+        status: 'Acá ganando copas',
+        phone: '+54 1155 6677',
         messages:[
             {
                 id: 1,
                 author: 'Yo',
                 content: "Todo bien?",
                 timestamp: '16:17'
+            }, 
+            {
+                id: 3,
+                author: 'Dibu',
+                content: "Obvio y vos?",
+                timestamp: '16:18'
             }
         ]
     },
@@ -22,6 +30,8 @@ const contacts = [
         last_time_connected: 'Ahora',
         is_connected: true,
         profile_img:'https://fleeknews.cl/wp-content/uploads/2021/08/maria-becerra-e1630095860501.jpeg',
+        status: 'Preparandome para el River',
+        phone: '+54 1122 3344',
         messages:[
             {
                 id: 1,
