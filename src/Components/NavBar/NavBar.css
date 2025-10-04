@@ -14,8 +14,6 @@
     align-items: center;
     gap: 25px;
     padding: 10px;
-
-    width: 100%;
 }
 
 .navbar-container--button{
@@ -34,4 +32,32 @@
 .black-button{
     color:black;
     background-color: #ffcd3859;
+}
+
+.navbar-container--img{
+    width: 50px;
+}
+
+ /* ////////////////////// */
+.navbar-container--button:hover{
+    background-color: #ffcd3859;
+}
+
+/* /////////media ///////////////// */
+
+@media screen and (max-width: 800px){
+    .navbar-container{
+        flex-direction: row;
+        height: 60px;
+        width: 100%;
+    }
+
+    .navbar-container--button-container{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .navbar-container--img{
+        width: 30px;
+    }
 }

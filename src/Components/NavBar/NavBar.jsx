@@ -14,7 +14,7 @@ const NavBar = () => {
 
             <div className='navbar-container--button-container'>
                 <button className='navbar-container--button'> <ICONS.Settings/> </button>
-                <img src="https://static.vecteezy.com/system/resources/previews/012/638/343/original/lemon-slice-color-png.png" alt="" width={'50px'}/>
+                <img className='navbar-container--img' src="https://static.vecteezy.com/system/resources/previews/012/638/343/original/lemon-slice-color-png.png" alt=""/>
             </div>
 
         </div>

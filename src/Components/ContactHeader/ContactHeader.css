@@ -1,6 +1,7 @@
 .contact-header-link{
     text-decoration: none;
     color: black;
+    width: 100%;
 }
 
 .contact-header-container{
@@ -12,7 +13,7 @@
     justify-content: space-between;
 
     padding: 0px 15px;
-    background-color: wheat;
+    background-color: white;
 }
 
 .contact-header-container--left{
@@ -22,7 +23,6 @@
     align-items: center;
 
     height: 100%;
-    width: 300px;
     gap: 15px;
 
 }
@@ -55,7 +55,6 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    
 }
 
 .contact-header--button{
@@ -71,4 +70,37 @@
     
     height: 40px;
     width: 40px;
+}
+
+.contact-header--button:hover{
+    background-color: #ffcd3859;
+}
+
+/* ////////////// */
+
+@media screen and (max-width: 630px){
+    .contact-header--connected{
+        font-size: 13px;
+    }
+    .contact-header--button{
+        display: none;
+    }
+    .button-mobile{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contact-header--button{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contact-header--button{
+        display: none;
+    }
+    .button-mobile{
+        display: flex;
+    }
 }

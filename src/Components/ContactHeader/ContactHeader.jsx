@@ -19,7 +19,7 @@ const ContactHeader = (props) => {
                 <div className='contact-header-container--right'>
                     <button className='contact-header--button'><ICONS.Llamada/></button>
                     <button className='contact-header--button'><ICONS.Buscar/></button>
-                    <button className='contact-header--button'><ICONS.TresPuntos/></button>
+                    <button className='contact-header--button button-mobile'><ICONS.TresPuntos/></button>
                 </div>
             </header>
         </Link>

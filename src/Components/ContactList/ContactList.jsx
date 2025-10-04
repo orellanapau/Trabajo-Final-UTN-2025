@@ -42,7 +42,7 @@ const ContactList = () => {
                     <button className='header-container--button'><ICONS.NewChat/></button>
                     <button className='header-container--button'><ICONS.TresPuntos/></button>
                 </div>
-            </header >
+            </header >    
             {contact_list_jsx}
         </div>
     )

@@ -4,19 +4,25 @@
     background-color: white; 
 }
 
-.newMessage-container--form{
+.newMessage-container--form {
     display: flex;
     flex-direction: row;
     align-items:center;
     gap: 5px;
     padding: 5px 15px;
+    width: 100%;
+}
+
+.newMessage-container--form-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .newMessage-container--input{
-    background-color: transparent;
-    width: 100%;
-    height: 60%;   
-
+    background-color: white;
+    height: 60%;  
+    flex: 1;
     color: black;
     font-size: 14px;
     padding: 7px 20px;
@@ -36,6 +42,14 @@
     font-size: 20px;
     background-color: #ffcd38;
     border-radius: 100px;
-    min-height: 40px;
-    min-width: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+/* ////////// */
+
+@media screen and (max-width: 800px){
+    .newMessage-container--form-mobile{
+        display: none;
+    }
 }

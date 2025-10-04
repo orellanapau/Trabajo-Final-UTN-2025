@@ -7,6 +7,7 @@ import { getContactById } from '../../Services/contactService'
 import ContactList from '../../Components/ContactList/ContactList'
 import './MessageScreen.css'
 import ContactHeader from '../../Components/ContactHeader/ContactHeader'
+import ICONS from '../../constants/icons'
 
 function MessageScreen() {
 
@@ -40,10 +41,13 @@ function MessageScreen() {
     return (
 
         <div className='message-screen--container'>
-            <NavBar/>
-            <ContactList/>
+            <div className='message-screen--container-mobile'>
+                <NavBar/>
+                <ContactList/>
+            </div>
             <div className='message-screen--contact-container'>
                 <div className='message-screen--header'>
+                    <button className='message-screen--button-mobile'><ICONS.Atras/></button>
                     {contact && <ContactHeader contact={contact}/>}
                 </div>
                 <div className='message-screen--messages'>

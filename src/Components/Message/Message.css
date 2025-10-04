@@ -16,6 +16,7 @@
     max-height: max-content;
     width: fit-content;
     max-width: 70%;
+    
     border-radius: 5px;
     padding: 5px 8px;
     margin: 2px;
@@ -42,3 +43,4 @@
     font-size: 12px;
     padding: 2px;
 }
+
