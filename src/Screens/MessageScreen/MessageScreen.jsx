@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import MessagesList from '../../Components/MessageList/MessagesList'
 import NavBar from '../../Components/NavBar/NavBar'
 import NewMessageForm from '../../Components/NewMessageForm/NewMessageForm'
-import { useParams } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { getContactById } from '../../Services/contactService'
 import ContactList from '../../Components/ContactList/ContactList'
 import './MessageScreen.css'
@@ -47,7 +47,7 @@ function MessageScreen() {
             </div>
             <div className='message-screen--contact-container'>
                 <div className='message-screen--header'>
-                    <button className='message-screen--button-mobile'><ICONS.Atras/></button>
+                    <Link to={'/'}><button className='message-screen--button-mobile'><ICONS.Atras/></button></Link>
                     {contact && <ContactHeader contact={contact}/>}
                 </div>
                 <div className='message-screen--messages'>
