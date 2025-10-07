@@ -1,0 +1,127 @@
+.contact-screen-container{
+    display: flex;
+    flex-direction: row;
+    height: 100dvh;
+    width: 100%;
+}
+
+.contact-screen--container-mobile{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 500px;
+
+    border-right: 2px solid;
+    border-color: #fff4cc;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+
+    height: 60px;
+    width: 100%;  
+
+    background-color: #fff4cc;
+}
+
+.profile-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    border: none ;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+
+.profile-text{
+    font-size: 18px;
+}
+
+.profile-text-h1{
+    font-size: 25px;
+}
+
+.profile-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.profile-small-text{
+    font-size: 18px;
+    color: grey;
+}
+
+.profile-items--status{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    gap: 7px;
+    text-align: left;
+}
+
+.profile-items--button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 0 15px;
+    font-size: 18px;
+    color: red;
+}
+
+.red{
+    color: red;
+}
+
+/* /// */
+
+.profile-items--button:hover{
+    background-color: #fff4cc;
+    border-radius: 10px;
+}
+
+/* /// */
+
+@media screen and (max-width: 800px)  {
+    .contact-screen--container-mobile{
+        flex-direction: column-reverse;
+    }
+}

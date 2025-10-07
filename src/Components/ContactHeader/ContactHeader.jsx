@@ -6,8 +6,8 @@ import ICONS from '../../constants/icons'
 const ContactHeader = (props) => {
     const contact = props.contact
     return (
-        <Link className='contact-header-link' >
-            <header className='contact-header-container' to={'/profile/' + contact.id} key={props.id}>
+        <Link to={'/profile/' + contact.id} className='contact-header-link' >
+            <header className='contact-header-container' key={contact.id}>
                 <div className='contact-header-container--left'>
                     <img className='contact-header--img' src={contact.profile_img} alt="Foto de perfil del usuario"/>
                     <div className='contact-header--name-container'>
