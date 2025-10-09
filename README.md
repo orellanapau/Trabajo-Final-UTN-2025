@@ -1,12 +1,36 @@
-# React + Vite
+# 🍋 Lemonade Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lemonade Chat es mi proyecto final del curso de Programación Web FrontEnd - UTN (Universidad Tecnológica Nacional). 
 
-Currently, two official plugins are available:
+Se trata de una aplicación de mensajería instantánea inspirada en WhatsApp, pero con una identidad visual basada en la nueva canción "Lemonade" de Louis Tomlinson, mi artista favorito.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto busca capturar la energía vibrante de la canción a través de una paleta de colores amarillos y tonos cálidos, y un diseño amigable y moderno.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React - Biblioteca principal para la construcción de la interfaz
+* React Router - Gestión de rutas y navegación
+* CSS3 - Estilos personalizados y diseño responsive
+* React Icons - Biblioteca de iconos
+
+## Funcionalidades:
+
+* Lista de contactos con foto de perfil y estado de conexión
+* Buscador de chats, filtros y sección de chats archivados.
+* Visualización de mensajes en tiempo real
+* Envío de nuevos mensajes
+* Header con información del contacto
+  * Información del contacto (imágen, nombre, teléfono y estado)
+  * Opciones para bloquear o eliminar contacto.
+* Diseño responsive (Desktop a mobile)
+
+## Este proyecto me permitió consolidar conocimientos en
+
+* Gestión de estado con React Hooks (useState, useEffect)
+* Enrutamiento con React Router
+* Componentización y reutilización de código
+* CSS responsive y media queries
+* Manejo de eventos y formularios
+* Estructura de proyectos escalables
+
+Proyecto desarrollado como trabajo final del curso de frontend inicial
