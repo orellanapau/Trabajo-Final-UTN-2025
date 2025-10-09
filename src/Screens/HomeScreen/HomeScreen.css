@@ -83,19 +83,19 @@ h1{
     }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 610px){
     h1{
         font-size: 18px;
         margin: 10px;
     } 
 
     .menssages-container-img{
-        width: 125px;
+        width: 150px;
         height: auto;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .menssages-container{
         display: none;
     }

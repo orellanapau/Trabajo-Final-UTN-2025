@@ -48,6 +48,12 @@
 
 /* ////////// */
 
+.newMessage-container--button:hover{
+    background-color:#d8ad2c;
+}
+
+/* /////////// */
+
 @media screen and (max-width: 800px){
     .newMessage-container--form-mobile{
         display: none;

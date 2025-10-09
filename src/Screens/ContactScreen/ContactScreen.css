@@ -75,7 +75,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
+    padding: 5px;
 }
 
 .profile-img{
@@ -112,6 +113,9 @@
 }
 
 /* /// */
+.interaction:hover{
+    background-color: #ffcd3859;
+}
 
 .profile-items--button:hover{
     background-color: #fff4cc;
@@ -123,5 +127,15 @@
 @media screen and (max-width: 800px)  {
     .contact-screen--container-mobile{
         flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contact-screen--container-mobile{
+        display: none;
+    }
+    .profile-img{
+        width: 130px;
+        height: auto;
     }
 }

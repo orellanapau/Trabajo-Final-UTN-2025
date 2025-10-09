@@ -27,7 +27,7 @@ const ContactScreen = () => {
             {contact && (
                 <div className='profile-container'>
                     <div className='profile-header'>
-                        <Link to={'/contacto/' + contact.id} key={contact.id}><button className='profile-button'><ICONS.Cruz /></button></Link>
+                        <Link to={'/contacto/' + contact.id} key={contact.id}><button className='profile-button interaction'><ICONS.Cruz /></button></Link>
                         <span className='profile-text'>Info. del contacto</span>
                     </div>
                     <div className='profile-body'>
