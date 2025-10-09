@@ -17,10 +17,34 @@ const contacts = [
                 timestamp: '16:17'
             }, 
             {
-                id: 3,
+                id: 2,
                 author: 'Peter Parker',
-                content: "Obvio y vos?",
+                content: "Obvio, y vos?",
                 timestamp: '16:18'
+            },
+            {
+                id: 3,
+                author: 'Yo',
+                content: "Tranqui, solo tratando de sobrevivir a la semana",
+                timestamp: '16:19'
+            },
+            {
+                id: 4,
+                author: 'Peter Parker',
+                content: "Jaja, te entiendo. A veces siento que ser Spider-Man no es tan distinto de sobrevivir a la facu.",
+                timestamp: '16:20'
+            },
+            {
+                id: 5,
+                author: 'Yo',
+                content: "Exacto! Pero al menos vos tenés telarañas y yo solo café ☕",
+                timestamp: '16:21'
+            },
+            {
+                id: 6,
+                author: 'Peter Parker',
+                content: "Cierto, aunque a veces las telarañas se enredan más de lo que ayudan 😂",
+                timestamp: '16:22'
             }
         ]
     },
@@ -30,21 +54,21 @@ const contacts = [
         last_time_connected: 'Ahora',
         is_connected: true,
         profile_img:'https://i.pinimg.com/474x/5c/bc/6e/5cbc6e2f450c321b28c8adf1d8c460d1.jpg',
-        status: 'Ant-Anthony',
+        status: 'Modo hormiga activado 🐜',
         phone: '+54 1122 3344',
         messages:[
             {
                 id: 1,
                 author: 'Yo',
-                content: "Hola Scott, todo bien?",
-                timestamp: '12:17'
-            },
+                content: "Ey Scott, alguna vez comiste algo diminuto a propósito?",
+                timestamp: '15:10'
+            }, 
             {
                 id: 2,
                 author: 'Scott',
-                content: "Si y vos?",
-                timestamp: '18:18'
-            }
+                content: "Jaja, todo el tiempo! Las mini hamburguesas son mis favoritas 😎",
+                timestamp: '15:11'
+            },
         ]
     },
     {
@@ -53,20 +77,38 @@ const contacts = [
         last_time_connected: 'Ahora',
         is_connected: true,
         profile_img:'https://wallpapers.com/images/hd/wanda-maximoff-in-casual-wear-1hjb8ah37cmkgt7o.jpg',
-        status: 'Billy y Tomy <3',
+        status: 'No puedo hablar, solo Lemonade',
         phone: '+54 1166 3344',
         messages:[
             {
                 id: 1,
                 author: 'Yo',
-                content: "Hola Wanda, todo bien?",
-                timestamp: '11:17'
+                content: "Wanda, ¿ya escuchaste Lemonade de Louis Tomlinson?",
+                timestamp: '18:05'
             },
             {
                 id: 2,
                 author: 'Wanda',
-                content: "Si y vos?",
-                timestamp: '11:20'
+                content: "Sí! Está buenísima, tiene ese toque dulce-amargo 🍋",
+                timestamp: '18:06'
+            },
+            {
+                id: 3,
+                author: 'Yo',
+                content: "Totalmente, me pegó el estribillo, no puedo sacármelo de la cabeza",
+                timestamp: '18:07'
+            },
+            {
+                id: 4,
+                author: 'Wanda',
+                content: "Jajaja, lo sé! La escucho mientras hago un poco de magia, combina perfecto",
+                timestamp: '18:08'
+            },
+            {
+                id: 5,
+                author: 'Yo',
+                content: "Perfecto!!! Voy a agregarla a mi playlist ya mismo",
+                timestamp: '18:09'
             }
         ]
     }
