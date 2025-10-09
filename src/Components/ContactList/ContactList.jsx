@@ -37,12 +37,23 @@ const ContactList = () => {
                     <img src="https://static.vecteezy.com/system/resources/previews/012/638/343/original/lemon-slice-color-png.png" alt="" width={'35px'}/>
                     <h2 className='header-container--h2'>Lemonade</h2>
                 </div>
-                
                 <div className='header-container--content'>
                     <button className='header-container--button'><ICONS.NewChat/></button>
                     <button className='header-container--button'><ICONS.TresPuntos/></button>
                 </div>
             </header >    
+            
+            <form className='form-container' onSubmit={(e)=>e.preventDefault()}>
+                <span className='form-container--button'><ICONS.Buscar/></span>
+                <input className='form-container--textarea' placeholder='Buscar un chat o iniciar uno nuevo'></input>
+            </form>
+            
+            <div className='button-container'>
+                <button className='button-with-border'>Todos</button>
+                <button className='button-with-border'>No leídos</button>
+                <button className='button-with-border'>Favoritos</button>
+                <button className='button-with-border'>Grupos</button>
+            </div>
             {contact_list_jsx}
         </div>
     )

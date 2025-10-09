@@ -82,6 +82,79 @@
     height: 40px;
     width: 40px;
 }
+/* buscador */
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+    padding: 10px;
+
+    width: 100%;
+    height: 40px;
+
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #ffcd3859;
+    background-color:#ffcd3859;
+}
+
+.form-container--button{
+    border: none;
+    background-color: transparent;
+    color: #867575;
+
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.form-container--textarea{
+    width: calc(25px + 100%);
+    height: 100%;
+
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    
+    padding-left: 2px;
+
+    resize: none;
+    overflow: hidden;
+}
+
+/* botones */
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    width: 100%;
+    height: 30px;
+    padding: 20px 0px;
+}
+
+.button-with-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    height: 28px;
+    width:max-content;
+
+    border: 1px solid;
+    border-color:#ffcd37;
+    border-radius: 15px;
+    background-color: transparent;
+    color:#867575;
+    font-size: 14px;
+}
 
 /* ///////////////////////////// */
 
@@ -90,5 +163,20 @@
 }
 
 .contact-list-container:hover{
+    background-color: #ffcd3859;
+}
+
+.form-container--textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.form-container:focus-within{
+    background-color: white;
+    border: 1px solid;
+    border-color: #ffcd37;
+}
+
+.button-with-border:hover{
     background-color: #ffcd3859;
 }
