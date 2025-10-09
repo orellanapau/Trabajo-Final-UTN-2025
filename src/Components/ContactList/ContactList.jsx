@@ -54,6 +54,16 @@ const ContactList = () => {
                 <button className='button-with-border'>Favoritos</button>
                 <button className='button-with-border'>Grupos</button>
             </div>
+
+            <div className='archive-container'>
+                <div className='archive-container-left'>
+                    <span className='archive-container--icon'><ICONS.Archivado/></span>
+                    <span className='archive-container--title'>Archivados</span>
+                </div>
+
+                <span className='archive-container-right'>5</span>
+
+            </div>
             {contact_list_jsx}
         </div>
     )

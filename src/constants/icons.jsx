@@ -1,9 +1,8 @@
 // Acá estás todos los iconos que voy a utilizar
 import { FiSettings, FiChevronLeft, FiX, FiMoreVertical, FiPhoneOutgoing, FiRadio, FiUsers, FiPaperclip, FiSlash, FiTrash2, FiCamera, FiSend, FiSearch } from "react-icons/fi";
-import { MdOutlineMarkUnreadChatAlt } from "react-icons/md";
+import { MdOutlineMarkUnreadChatAlt, MdOutlineArchive } from "react-icons/md";
 import { RiChatNewLine } from "react-icons/ri";
 import { RiEmojiStickerLine } from "react-icons/ri";
-
 
 const ICONS = {
     Settings: FiSettings,
@@ -21,7 +20,8 @@ const ICONS = {
     Emoji: RiEmojiStickerLine,
     Camara: FiCamera,
     Enviar: FiSend,
-    Buscar: FiSearch
+    Buscar: FiSearch,
+    Archivado: MdOutlineArchive
 }
 
 export default ICONS

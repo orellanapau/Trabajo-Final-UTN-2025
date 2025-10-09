@@ -78,7 +78,7 @@
 
 /* ////////////// */
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 680px){
     .contact-header--connected{
         font-size: 13px;
     }
@@ -102,5 +102,11 @@
     }
     .button-mobile{
         display: flex;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .contact-header--connected{
+        display: none;
     }
 }
