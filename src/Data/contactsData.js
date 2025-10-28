@@ -3,112 +3,106 @@
 const contacts = [
     {
         id: 1,
-        name: 'Peter Parker',
+        name: 'Sofia',
         last_time_connected: '5 octubre 2025',
         is_connected: false,
-        profile_img:'https://hips.hearstapps.com/hmg-prod/images/spider-man-no-way-home-tom-holland-1-1629769756.jpg?crop=0.582xw:1.00xh;0.244xw,0&resize=1200:*',
+        profile_img:'https://i.pinimg.com/originals/64/4f/b7/644fb77bb99879433be57f9657d85461.jpg',
         status: 'Estudiando...',
         phone: '+54 1155 6677',
         messages:[
             {
                 id: 1,
-                author: 'Yo',
-                content: "Todo bien?",
-                timestamp: '16:17'
-            }, 
+                author: 'Sofia',
+                content: "Hola! Vi tu portfolio, me encantaron tus diseños. Hacés páginas web también?",
+                timestamp: '10:02'
+            },
             {
                 id: 2,
-                author: 'Peter Parker',
-                content: "Obvio, y vos?",
-                timestamp: '16:18'
+                author: 'Yo',
+                content: "Hola Sofía! Sí, diseño y desarrollo sitios web con enfoque en experiencia de usuario 😊",
+                timestamp: '10:03'
             },
             {
                 id: 3,
-                author: 'Yo',
-                content: "Tranqui, solo tratando de sobrevivir a la semana",
-                timestamp: '16:19'
+                author: 'Sofia',
+                content: "Buenísimo! Estoy necesitando una landing page para mi emprendimiento, te paso los detalles?",
+                timestamp: '10:04'
             },
             {
                 id: 4,
-                author: 'Peter Parker',
-                content: "Jaja, te entiendo. A veces siento que ser Spider-Man no es tan distinto de sobrevivir a la facu.",
-                timestamp: '16:20'
-            },
-            {
-                id: 5,
                 author: 'Yo',
-                content: "Exacto! Pero al menos vos tenés telarañas y yo solo café ☕",
-                timestamp: '16:21'
-            },
-            {
-                id: 6,
-                author: 'Peter Parker',
-                content: "Cierto, aunque a veces las telarañas se enredan más de lo que ayudan 😂",
-                timestamp: '16:22'
+                content: "Claro! Pasame toda la info que tengas y vemos cómo podemos estructurarla 💻",
+                timestamp: '10:05'
             }
         ]
     },
     {
         id: 2,
-        name: 'Scott',
+        name: 'Lucas',
         last_time_connected: 'Ahora',
         is_connected: true,
-        profile_img:'https://i.pinimg.com/474x/5c/bc/6e/5cbc6e2f450c321b28c8adf1d8c460d1.jpg',
-        status: 'Modo hormiga activado 🐜',
+        profile_img:'https://cdn.pixabay.com/photo/2024/07/30/12/36/man-8932177_1280.png',
+        status: 'Modo descanso activado',
         phone: '+54 1122 3344',
         messages:[
             {
                 id: 1,
-                author: 'Yo',
-                content: "Ey Scott, alguna vez comiste algo diminuto a propósito?",
-                timestamp: '15:10'
-            }, 
+                author: 'Lucas',
+                content: "Te pasé el prototipo actualizado, fijate si los cambios en el header te convencen.",
+                timestamp: '14:31'
+            },
             {
                 id: 2,
-                author: 'Scott',
-                content: "Jaja, todo el tiempo! Las mini hamburguesas son mis favoritas 😎",
-                timestamp: '15:11'
+                author: 'Yo',
+                content: "Perfecto, lo veo ahora. Me gusta la nueva jerarquía visual, mucho más clara 👏",
+                timestamp: '14:33'
             },
+            {
+                id: 3,
+                author: 'Lucas',
+                content: "Genial! Si te parece, mañana ajusto los colores y subo la versión final.",
+                timestamp: '14:34'
+            },
+            {
+                id: 4,
+                author: 'Yo',
+                content: "Dale, quedamos así. Mañana te doy feedback final para cerrar el diseño.",
+                timestamp: '14:35'
+            }
         ]
     },
     {
         id: 3,
-        name: 'Wanda',
+        name: 'Martina',
         last_time_connected: 'Ahora',
         is_connected: true,
-        profile_img:'https://wallpapers.com/images/hd/wanda-maximoff-in-casual-wear-1hjb8ah37cmkgt7o.jpg',
+        profile_img:'https://tse2.mm.bing.net/th/id/OIP.ZTXhNh3LpALGjEZsvSFnbAHaHa?pid=Api',
         status: 'No puedo hablar, solo Lemonade',
         phone: '+54 1166 3344',
         messages:[
             {
                 id: 1,
-                author: 'Yo',
-                content: "Wanda, ¿ya escuchaste Lemonade de Louis Tomlinson?",
-                timestamp: '18:05'
+                author: 'Martina',
+                content: "Hola! Vi tu perfil y me interesó tu trabajo. Estás disponible para nuevos proyectos?",
+                timestamp: '17:42'
             },
             {
                 id: 2,
-                author: 'Wanda',
-                content: "Sí! Está buenísima, tiene ese toque dulce-amargo 🍋",
-                timestamp: '18:06'
+                author: 'Yo',
+                content: "Hola Martina! Sí, actualmente estoy abierta a nuevas oportunidades. Contame un poco del proyecto 😊",
+                timestamp: '17:43'
             },
             {
                 id: 3,
-                author: 'Yo',
-                content: "Totalmente, me pegó el estribillo, no puedo sacármelo de la cabeza",
-                timestamp: '18:07'
+                author: 'Martina',
+                content: "Perfecto, es un rediseño web para una marca local. Buscamos alguien con buena base UX/UI.",
+                timestamp: '17:44'
             },
             {
                 id: 4,
-                author: 'Wanda',
-                content: "Jajaja, lo sé! La escucho mientras hago un poco de magia, combina perfecto",
-                timestamp: '18:08'
-            },
-            {
-                id: 5,
                 author: 'Yo',
-                content: "Perfecto!!! Voy a agregarla a mi playlist ya mismo",
-                timestamp: '18:09'
+                content: "Excelente! Es justo el tipo de trabajo que disfruto. Si querés te envío mi portfolio actualizado.",
+                timestamp: '17:45'
             }
         ]
     }
